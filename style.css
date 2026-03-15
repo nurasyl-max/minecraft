@@ -85,3 +85,51 @@ body {
     font-size:14px;
     line-height:1.6;
 }
+.sound-block {
+    margin: 60px auto 40px;
+    text-align: center;
+}
+
+.sound-block p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: limegreen;
+}
+
+.sound-img {
+    width: 300px;
+    cursor: pointer;
+    border: 4px solid white;
+    transition: transform 0.1s, box-shadow 0.1s;
+    image-rendering: pixelated;
+}
+
+.sound-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px limegreen;
+}
+
+.sound-img:active {
+    transform: scale(0.95);
+}
+
+.marquee-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 120px;
+}
+
+.marquee-img {
+    position: absolute;
+    animation: bounce-marquee 4s linear infinite alternate;
+}
+
+@keyframes bounce-marquee {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 300px);
+    }
+}
