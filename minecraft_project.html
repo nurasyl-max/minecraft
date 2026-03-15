@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Minecraft Pixel Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <marquee behavior="alternate" direction="right" scrollamount="5">
+    <img src="welcome.png" width="300">
+     </marquee>
+
+    <h1>Minecraft World</h1>
+    <p>Minecraft — это песочница, где можно строить, исследовать и выживать.<br>
+    Вы можете добывать блоки, создавать инструменты и сражаться с мобами.<br>
+    Это одна из самых популярных игр в мире.</p>
+
+    <button class="btn-start" onclick="toggleMusic(this)">Старт</button>
+
+
+    <audio id="music" loop>
+        <source src="sound.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <div class="biomes">
+    <a href="#snow"><div><img src="biome1.png" alt="Биом 1"></div></a>
+    <a href="#forest"><div><img src="biome2.png" alt="Биом 2"></div></a>
+    <a href="#cherry"><div><img src="biome3.png" alt="Биом 3"></div></a>
+    <a href="#desert"><div><img src="biome4.png" alt="Биом 4"></div></a>
+</div>
+<p> </br> </p>
+<p> </br> </p>
+<p> </br> </p>
+
+<div id="snow" class="biome-section">
+<div class="biome-content">
+
+<img src="biome1.png">
+
+<div class="biome-text">
+<h2>Зимняя тайга</h2>
+<p>
+Зимняя тайга — холодный биом, покрытый снегом и еловыми деревьями.
+Здесь можно встретить волков и лис. Земля покрыта снегом и льдом,
+а пейзаж напоминает настоящую северную тайгу.
+Иногда в этом биоме можно найти деревни и исследовать красивые
+заснеженные леса.
+</p>
+</div>
+
+</div>
+</div>
+
+<div id="forest" class="biome-section">
+<div class="biome-content">
+
+<img src="biome2.png">
+
+<div class="biome-text">
+<h2>Дубовый лес</h2>
+<p>
+Дубовый лес — один из самых распространённых биомов в Minecraft.
+Здесь растёт много дубовых деревьев и травы, а также обитают
+животные, такие как коровы, овцы и свиньи.
+Этот биом отлично подходит для начала выживания, потому что
+здесь легко добывать древесину и строить дом.
+</p>
+</div>
+
+</div>
+</div>
+
+<div id="cherry" class="biome-section">
+<div class="biome-content">
+
+<img src="biome3.png">
+
+<div class="biome-text">
+<h2>Сакуровый лес</h2>
+<p>
+Сакуровый лес — красивый биом с розовыми деревьями сакуры.
+С деревьев падают лепестки, создавая спокойную атмосферу.
+Этот биом отлично подходит для строительства красивых домов
+и декоративных построек.
+Многие игроки любят его за уникальный внешний вид.
+</p>
+</div>
+
+</div>
+</div>
+
+<div id="desert" class="biome-section">
+<div class="biome-content">
+
+<img src="biome4.png">
+
+<div class="biome-text">
+<h2>Пустыня</h2>
+<p>
+Пустыня — жаркий и сухой биом, состоящий в основном из песка.
+Здесь можно найти кактусы, сухие кусты и иногда пустынные храмы.
+В храмах часто находятся сундуки с ценными предметами.
+Несмотря на суровые условия, этот биом очень интересен
+для исследования.
+</p>
+</div>
+
+</div>
+</div>
+
+
+    <script src="script.js"></script>
+<p> </br> </p>
+
+   <video src="video.mp4" controls>
+
+<p> </br> </p>
+<p> </br> </p>
+<p> </br> </p>
+
+</body>
+</html>
