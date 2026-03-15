@@ -6,9 +6,9 @@
 </head>
 <body>
 
-   <marquee behavior="alternate" direction="right" scrollamount="5">
-    <img src="welcome.png" width="300">
-     </marquee>
+   <div class="marquee-wrapper">
+    <img src="welcome.png" width="300" class="marquee-img">
+</div>
 
     <h1>Minecraft World</h1>
     <p>Minecraft — это песочница, где можно строить, исследовать и выживать.<br>
@@ -110,15 +110,23 @@
 </div>
 
 
-    <script src="script.js"></script>
 <p> </br> </p>
+
+<div class="sound-block">
+    <img src="grad.png" alt="Creeper" class="sound-img" onclick="playEffect()">
+</div>
+
+<audio id="effect">
+    <source src="grad.mp3" type="audio/mpeg">
+</audio>
 
    <video src="video.mp4" controls>
 
 <p> </br> </p>
 <p> </br> </p>
 <p> </br> </p>
+    <script src="script.js"></script>
 
-<img src="grad.png">
+
 </body>
 </html>
