@@ -12,3 +12,9 @@ function toggleMusic(button) {
     }
 
 }
+
+function playEffect() {
+    const effect = document.getElementById("effect");
+    effect.currentTime = 0;
+    effect.play();
+}
